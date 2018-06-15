@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Melway Central</string>
+    <string name="urlString">https://www.mw-central.com</string>
+    <string name="homeButtonText">Return to Home Page</string>
+    <string name="toast_playservices_unrecoverable">Could not locate Google Play Services, please download latest version from play store</string>
+</resources>

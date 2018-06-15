@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DC121D</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#DFE22D</color>
+    <color name="logoBackgroundColor">#C1BEBE</color>
+    <!-- Red:          #DC121D
+         Dark-Gray:    #616161
+         Light-Gray:   #C1BEBE
+         Yellow:       #DFE22D -->
+</resources>

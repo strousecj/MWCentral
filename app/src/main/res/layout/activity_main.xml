@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation|screenSize"
+
+    tools:context="com.melwaypaving.MelwayCentral.MainActivity">
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ProgressBar
+        android:id="@+id/webview_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:alpha="0.6"
+        android:indeterminateDrawable="@drawable/progress"
+        />
+
+<!-- ******************************************************************************************  -->
+    <!-- Floating Action Button -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/frameLayout">
+
+            <ImageButton
+                android:layout_margin="8dp"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_home"
+                android:background="@drawable/circle"
+                android:id="@+id/imageButton"
+                android:layout_gravity="bottom|right" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>
